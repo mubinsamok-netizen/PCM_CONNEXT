@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Kanit", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-50: #fcf3f1;
+  --color-brand-100: #f9e4df;
+  --color-brand-200: #f4c8bc;
+  --color-brand-500: #e55a30;
+  --color-brand-600: #d1431a;
+  --color-brand-700: #b03411;
+  --color-brand-900: #1a1a1a;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 99px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
